@@ -1,7 +1,10 @@
 #Bruno1
-
+# Lista global
 inventario = []
 
+# ---------------------------
+# Funcion para cargar datos iniciales
+# ---------------------------
 def inicializar_datos():
     global inventario
 
@@ -19,6 +22,29 @@ def inicializar_datos():
     ]
 
 
+# ---------------------------
+# Funcion para agregar arboles
+# ---------------------------
+def agregar_arbol(especie, estado, ubicacion):
+    arbol = {
+        "especie": especie,
+        "estado": estado,
+        "ubicacion": ubicacion
+    }
+
+    inventario.append(arbol)
+
+
+# ---------------------------
+# Programa principal
+# ---------------------------
 if __name__ == "__main__":
     inicializar_datos()
+
+    agregar_arbol("Pino", "Sano", "Plaza")
+    agregar_arbol("Roble", "Seco", "Parque")
+
     print(inventario)
+
+
+    
