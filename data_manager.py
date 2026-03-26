@@ -1,4 +1,4 @@
-# Bruno (o tu nombre)
+# Bruno1
 
 inventario = []
 
@@ -9,16 +9,16 @@ def inicializar_datos():
         {
             "especie": "Jacarandá",
             "estado": "Saludable",
-            "ubicacion": "Plaza central"
+            "ubicacion": "Plaza San Martin"
         },
         {
             "especie": "Roble",
             "estado": "Enfermo",
-            "ubicacion": "Av. San Martín"
+            "ubicacion": "Plaza Bicentenario"
         },
         {
             "especie": "Pino",
             "estado": "Saludable",
-            "ubicacion": "Parque industrial"
+            "ubicacion": "Parque de la Familia"
         }
     ]
