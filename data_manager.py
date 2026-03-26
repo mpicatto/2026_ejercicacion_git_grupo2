@@ -34,7 +34,9 @@ def agregar_arbol(especie, estado, ubicacion):
 
     inventario.append(arbol)
 
-
+def listar_arboles():
+    for arbol in inventario:
+        print(f"Especie: {arbol['especie']}, Estado: {arbol['estado']}, Ubicación: {arbol['ubicacion']}")
 # ---------------------------
 # Programa principal
 # ---------------------------
@@ -45,6 +47,8 @@ if __name__ == "__main__":
     agregar_arbol("Roble", "Seco", "Parque")
 
     print(inventario)
-
-
     
+
+
+
+
