@@ -12,3 +12,12 @@ def agregar_arbol(especie, estado, ubicacion):
     agregar_arbol("Roble", "Seco", "Parque")
 
      print(inventario)  
+
+     def obtener_arboles_enfermos():
+    arboles_enfermos = []
+
+    for arbol in inventario:
+        if arbol["estado"] == "Enfermo":
+            arboles_enfermos.append(arbol)
+
+    return arboles_enfermos
