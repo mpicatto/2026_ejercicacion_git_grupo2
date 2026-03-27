@@ -1,14 +1,18 @@
-from data_manager import listar_arboles
+# Nombre: TU NOMBRE
 
-while True:
-    print("1. Ver árboles")
-    print("2. Agregar")
-    print("3. Salir")
+from data_manager import *
 
-    opcion = input("Elegí una opción: ")
+def menu():
+    while True:
+        print("\n1. Ver árboles")
+        print("2. Agregar árbol")
+        print("3. Salir")
 
-    if opcion == "1":
-        listar_arboles()
+        opcion = input("Elegir opción: ")
 
-    elif opcion == "3":
-        break
+        if opcion == "3":
+            print("Saliendo...")
+            break
+
+if __name__ == "__main__":
+    menu()
