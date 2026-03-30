@@ -21,3 +21,4 @@ def agregar_arbol(especie, estado, ubicacion):
             arboles_enfermos.append(arbol)
 
     return arboles_enfermos
+
